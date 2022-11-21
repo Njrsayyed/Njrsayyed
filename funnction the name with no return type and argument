@@ -1,0 +1,24 @@
+// funnction the name with no return type and argument
+#include <stdio.h>
+
+void add (int x,int y){
+int sum;
+sum=x+y;
+printf("sum%d",sum);
+
+}
+
+void main () {
+    int a,b;
+    printf("enter the value of a ");
+    scanf ("%d",&a);
+    printf("enter the value of b ");
+    scanf("%d",&b);
+    add(a,b);
+    
+}
+
+output
+enter the value of a 10
+enter the value of b 7
+sum17
